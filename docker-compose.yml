@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:13.6
+    ports:
+      - '5432:5432'
+    mem_limit: 5g
+    mem_reservation: 128m
+    cpus: 1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres

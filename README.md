@@ -28,6 +28,8 @@
 
 ## Project setup
 
+Node deve estar na versão V20.16.0
+
 ```bash
 $ npm install
 # runs the docker compose to install postgres database
